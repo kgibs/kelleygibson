@@ -1,0 +1,30 @@
+/*
+Theme Name: Custom
+Description: Used to style the TinyMCE editor.
+*/
+
+@import "style.css";
+
+html .mceContentBody {
+	/*max-width: 640px;*/
+}
+
+body.mcecontentbody {
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #58595A;
+    line-height: normal;
+    padding: 0;
+}
+
+body.mcecontentbody td {
+    font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #58595A;
+    margin: 0;
+}
+
+body.mcecontentbody.acf_settings {
+    background: #ccc;
+}

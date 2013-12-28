@@ -1,0 +1,125 @@
+/*
+Theme Name: Spring Cleaning
+Theme URI: http://kelleyweeks.com
+Description: A custom theme for kelleyweeks.com
+Author: Kelley Weeks
+Author URI: http://infinitymedia.ca/
+Version: 1.0
+Tags: simplistic, clean, minimal
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body { background:url(images/kw_patternedBG.png) top left repeat-x #f7f7f7; padding:20px 0; line-height:1.3em; font-family: 'Lusitana', serif; font-size:16px; color:#383838; }
+
+h1, h2, h3, h4, h5, h6 { font-family:'Overlock', Arial, sans-serif; }
+	h1 { font-size:30px; }
+	h2 { font-size:24px; padding-bottom:12px; text-transform:uppercase; }
+	h3 { font-size: 20px; padding:12px 0; font-weight:bold; text-transform:uppercase; }
+		h3.regular { text-transform:none; font-weight:normal; }
+	h4 { font-size: 16px; clear:both; font-weight:bold; text-transform:uppercase; }
+	h5 { font-size: 12px; }
+	h6 { font-size: 10px; }
+
+hr.headerBottomBorder { background:url(images/kw_headerBottomBorder.png) top left repeat-x; height:15px;border:none; border-radius:7px; moz-border-radius:5px; webkit-border-radius:7px; margin: 0 0 25px 0; }
+
+#contentWell { width:1000px; margin:0 auto; position:relative; }
+	#header { height:73px; width:960px; margin:0 auto; }
+	#main { width:960px; margin:0 auto; }
+	#container { padding:20px 0; float:left; width:940px; margin-top:-4px; margin-left:4px; }
+	
+a#logo { background:url(images/kw_logo.png) top left no-repeat; text-indent:-10000px; overflow:hidden; display:block; width:209px; height:73px; float:left; }
+
+.mainNav { float:right; margin:25px 25px 0 0; }
+	.mainNav ul { list-style:none; }
+		.mainNav ul li { display:inline; margin-left:50px; }
+			.mainNav ul li a { font-family:'Overlock', Arial, sans-serif; text-transform:uppercase; font-size:16px; color:#031218; text-decoration:none; }
+				.mainNav ul li a:hover, .mainNav ul li.current-menu-item a  { color:#94bac9; }			
+
+a { color:#94bac9; text-decoration:none; }
+	a:hover { text-decoration:underline; }
+
+a img { display:block; }
+	
+p { padding-bottom:10px; }
+
+ul { padding:0 40px 10px; }
+
+strong { font-weight:bold; }
+em { font-style: italic; }
+
+.alignleft { float:left; margin-right:15px; }
+.alignright { float:right; margin-left:15px; }
+
+.clearfix { clear:both; }
+
+img { border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; }
+
+
+/* Contact Page */
+input {background:url(images/kw_inputBG.png) top left repeat-x; border:1px solid #94bac9; border-radius:7px; webkit-border-radius:7px; -moz-border-radius:7px; padding:9px 15px; font-family:'Overlock',Arial,sans-serif; font-size:14px; text-transform:uppercase; }
+
+textarea {background:url(images/kw_inputBG.png) top left repeat; min-width:888px; max-width:888px; border:1px solid #94bac9; border-radius:7px; webkit-border-radius:7px; -moz-border-radius:7px; padding:15px; font-family:'Overlock',Arial,sans-serif; font-size:14px; }
+
+.nameField { float:left; margin-right:40px; }
+.emailField { float:left; }
+	.nameField input, .emailField input { width:338px; }
+.subjectField { clear:both; }
+	.subjectField input { width:748px; }
+
+.captcha { float:left; font-size:14px; font-family:'Overlock',Arial,sans-serif; }
+	.captcha input { width:51px; }
+#submit { width:97px; float:right; }
+	#submit input { cursor:pointer; }
+
+form div.wpcf7-validation-errors, form div.wpcf7-mail-sent-ok { clear:left; border-color:#94bac9; }
+
+/* Footer */
+#footer { text-transform:lowercase; font-size:14px; width:940px; margin:0 auto; clear:left; }
+	.footerContainer { padding:25px 0; }
+	.copyright { float:right; }
+
+.indent { padding-left:20px; }	
+	.indent div { margin-bottom:20px; clear:left }
+	.indent div.last { margin:0; }
+	.indent div hr { width:50%; color:#94bac9; float:left; }
+
+/* Resume */
+#software ul { float:left; }
+
+/* Portfolio */
+	.portfolio-left { width:235px; float:left; }
+		ul.portfolio-thumbs { list-style:none; padding:0 0 0 35px; margin:0; height:500px; overflow-y:auto; overflow-x:hidden; }
+			ul.portfolio-thumbs li { margin-bottom:10px; }
+				ul.portfolio-thumbs li a img { border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; }
+		.portfolio-thumbs .mCS-light-thick>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .portfolio-thumbs .mCS-light-thick>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar { background:rgba(148, 186, 201, 1); }
+		
+	.portfolio-right { width:705px; float:left; }
+		.portfolio-right .portfolio-content { margin:0 40px; position:relative; }
+			.portfolio-sample img { border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; }
+			.portfolio-description { position:absolute; top:0; left:0; background:#000; opacity:0.85; height:100%; width:622px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; color:#bbb; }
+				.portfolio-description-container { padding:20px; }
+		
+	.hidden { display:none; }
+	
+/* Single */
+.post { padding:0 10px; }
+	.post-image { float:left; margin-right:20px; }
+	.post-content { float:left; width:265px; }
+		.post-content h4 { margin-bottom:10px; }
